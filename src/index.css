@@ -16,6 +16,9 @@ body{
   width: 100vw;
   background-color: rgb(0, 0, 0);
   padding: 30px;
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
 }
 
 .card{
@@ -29,7 +32,6 @@ body{
   justify-content: space-between;
 }
 
-
 .card .top{
   display: flex;
   align-items: center;
@@ -39,29 +41,29 @@ body{
 }
 
 .top img{
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   border: 1px solid rgb(172, 171, 171);
-  padding: 5px;
+  padding: 7px;
 }
 
 .top button{
   display: flex;
   align-items:center;
   padding: 3px 7px;
-  color: #b1b1b1;
+  color: #898787;
   border: 1px solid #dadada;
   border-radius: 6px;
   background-color: transparent;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
   gap: 3px;
 }
 
 
 .center h3{
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -72,20 +74,19 @@ body{
 }
 
 .center h2{
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .center .tag{
   display: flex;
   gap :5px;
   margin-top: 8px;
-
 }
 
 .center .tag h4{
   font-size: 10px;
-  font-weight: 400;
-  background-color: #ece7e7;
+  font-weight: 600;
+  background-color: #e4e4e4;
   padding: 2px 4px;
   border-radius: 3px;
 }
@@ -94,6 +95,19 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #b1b1b1;
+  border-top: 2px solid #e0dada;
   padding-top: 15px  ;
 }
+
+.bottom button{
+  background-color: black;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 7px;
+}
+
+.bottom p{
+  color: #b1b1b1;
+  font-size: 12px;
+}
+
